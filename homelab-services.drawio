@@ -1,50 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2020-12-05T07:34:33.004Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="bycdK2jKB--WXKu5y7MB" version="13.10.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-06T07:31:41.739Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="gBYnGTZMTdxXDF4QL8Dt" version="13.10.9" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1693" dy="1068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_HTLE3-hLD3I_wHvUJin-1" value="mars" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="_HTLE3-hLD3I_wHvUJin-1" value="mars" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="290" y="750" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_HTLE3-hLD3I_wHvUJin-2" value="earth" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="320" y="360" width="80" height="80" as="geometry" />
+        <mxCell id="_HTLE3-hLD3I_wHvUJin-2" value="earth" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="385" y="360" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_HTLE3-hLD3I_wHvUJin-3" value="IMAC5K" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="_HTLE3-hLD3I_wHvUJin-3" value="IMAC5K" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="40" y="750" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_HTLE3-hLD3I_wHvUJin-4" value="fedora-ngc" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="_HTLE3-hLD3I_wHvUJin-4" value="fedora-ngc" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="170" y="750" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_HTLE3-hLD3I_wHvUJin-5" value="saturn" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="440" y="360" width="80" height="80" as="geometry" />
+        <mxCell id="_HTLE3-hLD3I_wHvUJin-5" value="saturn" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="535" y="360" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_HTLE3-hLD3I_wHvUJin-6" value="jupiter" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="_HTLE3-hLD3I_wHvUJin-6" value="jupiter" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="410" y="750" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_HTLE3-hLD3I_wHvUJin-7" value="mercury" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="80" y="360" width="80" height="80" as="geometry" />
+        <mxCell id="_HTLE3-hLD3I_wHvUJin-7" value="mercury" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="75" y="360" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_HTLE3-hLD3I_wHvUJin-8" value="venus" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="200" y="360" width="80" height="80" as="geometry" />
+        <mxCell id="_HTLE3-hLD3I_wHvUJin-8" value="venus" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="230" y="360" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_HTLE3-hLD3I_wHvUJin-10" value="&lt;ul&gt;&lt;li&gt;Music&lt;/li&gt;&lt;li&gt;Photos&lt;/li&gt;&lt;li&gt;Web Browsing&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+        <mxCell id="_HTLE3-hLD3I_wHvUJin-10" value="&lt;ul&gt;&lt;li&gt;Music&lt;/li&gt;&lt;li&gt;Photos&lt;/li&gt;&lt;li&gt;Web Browsing&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="1" vertex="1">
           <mxGeometry x="30" y="830" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_HTLE3-hLD3I_wHvUJin-11" value="&lt;ul&gt;&lt;li&gt;Ansible&lt;/li&gt;&lt;li&gt;Workstation&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+        <mxCell id="_HTLE3-hLD3I_wHvUJin-11" value="&lt;ul&gt;&lt;li&gt;Ansible&lt;/li&gt;&lt;li&gt;Workstation&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="1" vertex="1">
           <mxGeometry x="155" y="820" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_HTLE3-hLD3I_wHvUJin-12" value="&lt;ul&gt;&lt;li&gt;Webserver&lt;/li&gt;&lt;li&gt;&amp;nbsp; &amp;nbsp; Portfolio&lt;/li&gt;&lt;li&gt;&amp;nbsp; &amp;nbsp; Blog&lt;/li&gt;&lt;li&gt;SMTP&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+        <mxCell id="_HTLE3-hLD3I_wHvUJin-12" value="&lt;ul&gt;&lt;li&gt;Webserver&lt;/li&gt;&lt;li&gt;&amp;nbsp; &amp;nbsp; Portfolio&lt;/li&gt;&lt;li&gt;&amp;nbsp; &amp;nbsp; Blog&lt;/li&gt;&lt;li&gt;SMTP&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="1" vertex="1">
           <mxGeometry x="270" y="830" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_HTLE3-hLD3I_wHvUJin-14" value="&lt;ul&gt;&lt;li&gt;nfs&lt;/li&gt;&lt;li&gt;smb&lt;/li&gt;&lt;li&gt;rclone&lt;/li&gt;&lt;li&gt;webserver&lt;/li&gt;&lt;li&gt;postgres&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+        <mxCell id="_HTLE3-hLD3I_wHvUJin-14" value="&lt;ul&gt;&lt;li&gt;nfs&lt;/li&gt;&lt;li&gt;smb&lt;/li&gt;&lt;li&gt;rclone&lt;/li&gt;&lt;li&gt;webserver&lt;/li&gt;&lt;li&gt;postgres&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="1" vertex="1">
           <mxGeometry x="400" y="820" width="100" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="_HTLE3-hLD3I_wHvUJin-15" value="&lt;h1&gt;Services&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gitea&lt;/li&gt;&lt;li&gt;Drone&lt;/li&gt;&lt;li&gt;Nexus?&lt;/li&gt;&lt;li&gt;Vault&lt;/li&gt;&lt;li&gt;Loki?&lt;/li&gt;&lt;li&gt;Grafana&lt;/li&gt;&lt;li&gt;Prometheus&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="465" width="200" height="215" as="geometry" />
+        <mxCell id="_HTLE3-hLD3I_wHvUJin-15" value="&lt;h1&gt;Services&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Gitea&lt;/li&gt;&lt;li&gt;Drone&lt;/li&gt;&lt;li&gt;Nexus?&lt;/li&gt;&lt;li&gt;Vault&lt;/li&gt;&lt;li&gt;Loki?&lt;/li&gt;&lt;li&gt;Grafana&lt;/li&gt;&lt;li&gt;Prometheus&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="265" y="130" width="200" height="215" as="geometry" />
         </mxCell>
-        <mxCell id="_HTLE3-hLD3I_wHvUJin-16" value="k3s cluster" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
-          <mxGeometry x="250" y="280" width="100" height="40" as="geometry" />
+        <mxCell id="_HTLE3-hLD3I_wHvUJin-16" value="k3s cluster" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
+          <mxGeometry x="130" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2naL3oyoTYqjXx5qgr6-1" value="OS: Alpine Linux&lt;br&gt;Hostname: worker-3&lt;br&gt;IP: 192.168.1.x&lt;br&gt;Description: Old WinXP laptop with 512mb RAM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="460" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2naL3oyoTYqjXx5qgr6-2" value="OS: Alpine Linux&lt;br&gt;Hostname: worker-2&lt;br&gt;IP: 192.168.1.x&lt;br&gt;Desc: Old laptop 2GB RAM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="212.5" y="450" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2naL3oyoTYqjXx5qgr6-3" value="OS: Alpine Linux&lt;br&gt;Hostname: worker-1&lt;br&gt;IP: 192.168.1.x&lt;br&gt;Desc: Orion gaming laptop with an i7 and 8GB of RAM. I am pretty confident at one point it had 16GB so i dunno." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="368" y="460" width="114" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2naL3oyoTYqjXx5qgr6-4" value="OS: Alpine Linux&lt;br&gt;Hostname: master-1&lt;br&gt;IP: 192.168.1.x&lt;br&gt;Desc: Intel NUC 16GB RAM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="517.5" y="450" width="115" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
