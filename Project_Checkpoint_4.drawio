@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-12T23:01:39.933Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="sHHQXQH1BVflPXYjTjlm" version="20.0.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-06-12T23:19:03.572Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="UMC-PJjuj7eWr-kQ_-26" version="20.0.0" type="github" pages="6">
   <diagram name="Monolithic_System" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
     <mxGraphModel dx="1192" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -17,9 +17,9 @@
           <mxGeometry x="630" y="570" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LKQvTQKGH9wQOqA-eibF-7" value="Architectural Responsibilities (ICWE):&lt;br&gt;1. Whiteboard functionality support&lt;br&gt;2. Audio communication support&lt;br&gt;3. Video communication support&lt;br&gt;4. File sharing support&lt;br&gt;5. Direct messaging support&lt;br&gt;&lt;br&gt;Functional Responsibilities (ICWE):&lt;br&gt;1. Render Whiteboard with content&lt;br&gt;2. Control access to whiteboard content&lt;br&gt;3. Update whiteboard content&lt;br&gt;4. Display text message to designated user&lt;br&gt;5. Manage accounts for direct message access&lt;br&gt;6. Take keyboard input for direct message content&lt;br&gt;7. Lookup user account&lt;br&gt;8. Display interface to accept audio call&lt;br&gt;9. Connect audio endpoints for audio communication&lt;br&gt;10. Display alert for incoming audio call&lt;br&gt;11. Configure audio alerts for incoming call&lt;br&gt;12. Display interface for shared file browsing&lt;br&gt;13. Implement file ownership concept for access control to shared files&lt;br&gt;14. Sync changes to shared documents among all viewers&lt;br&gt;15. Assign appropriate access to newly created shared file&lt;br&gt;16. Display video from video call in resizeable window&lt;br&gt;17. Display video conferencing statistics&lt;br&gt;18. Display alert for incoming video call" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="800" y="360" width="390" height="460" as="geometry" />
+          <mxGeometry x="820" y="340" width="390" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="LKQvTQKGH9wQOqA-eibF-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.098;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LKQvTQKGH9wQOqA-eibF-2" target="LKQvTQKGH9wQOqA-eibF-7">
+        <mxCell id="LKQvTQKGH9wQOqA-eibF-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.01;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LKQvTQKGH9wQOqA-eibF-2" target="LKQvTQKGH9wQOqA-eibF-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="810" y="510" as="sourcePoint" />
             <mxPoint x="790" y="405" as="targetPoint" />
@@ -106,7 +106,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tOxHjZXBMQgUaD9UDvFd-11" value="message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tOxHjZXBMQgUaD9UDvFd-10">
+        <mxCell id="tOxHjZXBMQgUaD9UDvFd-11" value="request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tOxHjZXBMQgUaD9UDvFd-10">
           <mxGeometry x="-0.3061" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -120,7 +120,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tOxHjZXBMQgUaD9UDvFd-13" value="message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tOxHjZXBMQgUaD9UDvFd-12">
+        <mxCell id="tOxHjZXBMQgUaD9UDvFd-13" value="request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tOxHjZXBMQgUaD9UDvFd-12">
           <mxGeometry x="0.2848" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1571,7 +1571,7 @@
             <mxPoint x="-228.64685314685312" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bSyIidlGdIdmCGjbW2xP-5" value="«component»&lt;br&gt;&lt;b&gt;Messaging&lt;br&gt;Manager&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
+        <mxCell id="bSyIidlGdIdmCGjbW2xP-5" value="«component»&lt;br&gt;&lt;b&gt;Messaging&lt;br&gt;Monitor&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="940" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bSyIidlGdIdmCGjbW2xP-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bSyIidlGdIdmCGjbW2xP-5" target="Ndf9NzEHuJQTHHJ-qWEk-77">
