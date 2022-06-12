@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-12T21:31:11.701Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="IXj64iu4UiqqSEBTsNKU" version="20.0.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-06-12T21:35:17.276Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="c8IIABjfN7M3GRZBpfqR" version="20.0.0" type="github" pages="6">
   <diagram name="Monolithic_System" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
     <mxGraphModel dx="1192" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -197,7 +197,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YCwrLCV1L26kMmIwAUxu-10" value="«component»&lt;br&gt;&lt;b&gt;Whiteboard&lt;br&gt;Controller&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="600" width="110" height="50" as="geometry" />
+          <mxGeometry x="120" y="630" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YCwrLCV1L26kMmIwAUxu-11" value="Architectural Responsibilities (Whiteboard Controller):&lt;br&gt;1. Whiteboard functionality support&lt;br&gt;&lt;br&gt;Functional Responsibilities (Whiteboard Controller):&lt;br&gt;1. Render Whiteboard with content&lt;br&gt;2. Control access to whiteboard content&lt;br&gt;3. Update whiteboard content" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="390" y="770" width="390" height="140" as="geometry" />
@@ -230,7 +230,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dnj2vUu5AkYvsgBa5aYY-1" value="Architectural Responsibilities (Audio Communicator):&lt;br&gt;2. Audio communication support&lt;br&gt;&lt;br&gt;Functional Responsibilities (Audio Communicator):&lt;br&gt;8. Display interface to accept audio call&lt;br&gt;9. Connect audio endpoints for audio communication&lt;br&gt;10. Display alert for incoming audio call&lt;br&gt;11. Configure audio alerts for incoming call" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="390" y="930" width="390" height="150" as="geometry" />
+          <mxGeometry x="-540" y="640" width="320" height="150" as="geometry" />
         </mxCell>
         <mxCell id="dnj2vUu5AkYvsgBa5aYY-2" value="«component»&lt;br&gt;&lt;b&gt;Audio&lt;br&gt;Controller&lt;/b&gt;" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="-110" y="630" width="110" height="50" as="geometry" />
@@ -263,7 +263,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dnj2vUu5AkYvsgBa5aYY-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YCwrLCV1L26kMmIwAUxu-12" target="YCwrLCV1L26kMmIwAUxu-3">
+        <mxCell id="dnj2vUu5AkYvsgBa5aYY-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.364;exitY=-0.02;exitDx=0;exitDy=0;entryX=0.373;entryY=0.99;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="YCwrLCV1L26kMmIwAUxu-12" target="YCwrLCV1L26kMmIwAUxu-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="30" y="690" as="sourcePoint" />
             <mxPoint x="80" y="640" as="targetPoint" />
@@ -294,7 +294,7 @@
             <mxPoint x="230" y="840" as="sourcePoint" />
             <mxPoint x="280" y="790" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="280" y="625" />
+              <mxPoint x="280" y="655" />
               <mxPoint x="280" y="798" />
             </Array>
           </mxGeometry>
@@ -358,6 +358,38 @@
               <mxPoint x="330" y="480" />
               <mxPoint x="330" y="537" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dnj2vUu5AkYvsgBa5aYY-29" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YCwrLCV1L26kMmIwAUxu-10" target="YCwrLCV1L26kMmIwAUxu-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="600" as="sourcePoint" />
+            <mxPoint x="340" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="175" y="610" />
+              <mxPoint x="340" y="610" />
+              <mxPoint x="340" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dnj2vUu5AkYvsgBa5aYY-30" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=320;exitDy=90;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="dnj2vUu5AkYvsgBa5aYY-1" target="dnj2vUu5AkYvsgBa5aYY-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-180" y="880" as="sourcePoint" />
+            <mxPoint x="-130" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-170" y="730" />
+              <mxPoint x="-170" y="643" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dnj2vUu5AkYvsgBa5aYY-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YCwrLCV1L26kMmIwAUxu-3" target="YCwrLCV1L26kMmIwAUxu-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="600" as="sourcePoint" />
+            <mxPoint x="170" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dnj2vUu5AkYvsgBa5aYY-32" value="response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dnj2vUu5AkYvsgBa5aYY-31">
+          <mxGeometry x="-0.3988" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
