@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-26T06:54:48.963Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="RZM_ZnBP9kcBYM7jQdlD" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-26T07:57:17.091Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="dVWKuTpf9iDTel1W5dUn" version="20.0.3" type="github">
   <diagram id="J9-dVt_WuyNItKKg8K9w" name="Page-1">
     <mxGraphModel dx="2042" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,8 +7,8 @@
         <mxCell id="vXeGHm6Kk_XoGdUfjmAH-4" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;Input/Output from/to&lt;br&gt;Client Device" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="600" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vXeGHm6Kk_XoGdUfjmAH-5" value="Architectural Responsibilities ():&lt;br&gt;-&lt;br&gt;Functional Responsibilities ():&lt;br&gt;-" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="730" width="260" height="90" as="geometry" />
+        <mxCell id="vXeGHm6Kk_XoGdUfjmAH-5" value="Architectural Responsibilities (System View):&lt;br&gt;- Support Notifications&lt;br&gt;&lt;br&gt;Functional Responsibilities (System View):&lt;br&gt;- Support File Sharing" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="730" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="vXeGHm6Kk_XoGdUfjmAH-6" value="&amp;lt;&amp;lt;module&amp;gt;&amp;gt;&lt;br&gt;System Controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="460" width="360" height="50" as="geometry" />
@@ -210,13 +210,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vXeGHm6Kk_XoGdUfjmAH-49" value="Architectural Responsibilities ():&lt;br&gt;-&lt;br&gt;Functional Responsibilities ():&lt;br&gt;-" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="840" width="260" height="90" as="geometry" />
+        <mxCell id="vXeGHm6Kk_XoGdUfjmAH-49" value="Architectural Responsibilities (UI Adapter):&lt;br&gt;-&amp;nbsp;Support whiteboard functionality&lt;br&gt;&lt;br&gt;Functional Responsibilities (UI Adapter):&lt;br&gt;-&amp;nbsp;Support a shared whiteboard that allows remote team members to brainstorm and sketch ideas" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="840" width="320" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="vXeGHm6Kk_XoGdUfjmAH-50" value="Architectural Responsibilities ():&lt;br&gt;-&lt;br&gt;Functional Responsibilities ():&lt;br&gt;-" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="520" y="810" width="260" height="90" as="geometry" />
+        <mxCell id="vXeGHm6Kk_XoGdUfjmAH-50" value="Architectural Responsibilities (TPP Adapter):&lt;br&gt;- Support Third Party Providers&lt;br&gt;&lt;br&gt;Functional Responsibilities (TPP Adapter):&lt;br&gt;- Support Third Party Providers" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="810" width="320" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="vXeGHm6Kk_XoGdUfjmAH-52" value="Architectural Responsibilities (System Controller):&lt;br&gt;-&lt;br&gt;&lt;br&gt;Functional Responsibilities (System Controller):&lt;br&gt;-" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="vXeGHm6Kk_XoGdUfjmAH-52" value="Architectural Responsibilities (System Controller):&lt;br&gt;- Support File Sharing&lt;br&gt;&lt;br&gt;Functional Responsibilities (System Controller):&lt;br&gt;- Support fast responsiveness for sketching, drawing, video conferencing, and chat" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="-320" y="620" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="vXeGHm6Kk_XoGdUfjmAH-53" value="Architectural Responsibilities (System Model):&lt;br&gt;- Support User and Team Management&lt;br&gt;&lt;br&gt;Functional Responsibilities (System Model):&lt;br&gt;-&amp;nbsp;Support fast responsiveness for sketching, drawing, video conferencing, and chat" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
@@ -228,7 +228,7 @@
         <mxCell id="vXeGHm6Kk_XoGdUfjmAH-55" value="Architectural Responsibilities (Fault Manager):&lt;br&gt;- Latency of Network Connection Recovery&lt;br&gt;- Ensure software is highly responsive&lt;br&gt;&lt;br&gt;Functional Responsibilities (Fault Manager):&lt;br&gt;- Support recovery from unstable network connections&lt;br&gt;-&amp;nbsp;Support tracking of execution progress and troubleshooting errors at runtime&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="80" y="60" width="310" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="vXeGHm6Kk_XoGdUfjmAH-56" value="Architectural Responsibilities (Comm. Manager):&lt;br&gt;- Support Video and Audio&lt;br&gt;&lt;br&gt;Functional Responsibilities (Comm. Manager):&lt;br&gt;- Support video and audio communication" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="vXeGHm6Kk_XoGdUfjmAH-56" value="Architectural Responsibilities (Comm. Manager):&lt;br&gt;- Support Video and Audio&lt;br&gt;&lt;br&gt;Functional Responsibilities (Comm. Manager):&lt;br&gt;- Support video and audio communication&lt;br&gt;-&amp;nbsp;Support communication through text chat&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="520" y="215" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="vXeGHm6Kk_XoGdUfjmAH-57" value="Architectural Responsibilities (Sec. Manager):&lt;br&gt;- Support User Account Permissions Hierarchy&lt;br&gt;&lt;br&gt;Functional Responsibilities (Sec. Manager):&lt;br&gt;- Support system access control" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
@@ -285,9 +285,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vXeGHm6Kk_XoGdUfjmAH-64" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=260;exitDy=60;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vXeGHm6Kk_XoGdUfjmAH-5" target="vXeGHm6Kk_XoGdUfjmAH-26">
+        <mxCell id="vXeGHm6Kk_XoGdUfjmAH-64" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="vXeGHm6Kk_XoGdUfjmAH-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="20" y="850" as="sourcePoint" />
+            <mxPoint y="790" as="sourcePoint" />
             <mxPoint x="70" y="800" as="targetPoint" />
             <Array as="points">
               <mxPoint x="50" y="790" />
@@ -295,9 +295,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vXeGHm6Kk_XoGdUfjmAH-65" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=260;exitDy=60;exitPerimeter=0;" edge="1" parent="1" source="vXeGHm6Kk_XoGdUfjmAH-49" target="vXeGHm6Kk_XoGdUfjmAH-37">
+        <mxCell id="vXeGHm6Kk_XoGdUfjmAH-65" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="vXeGHm6Kk_XoGdUfjmAH-37">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="10" y="980" as="sourcePoint" />
+            <mxPoint y="900" as="sourcePoint" />
             <mxPoint x="60" y="930" as="targetPoint" />
             <Array as="points">
               <mxPoint x="50" y="900" />
