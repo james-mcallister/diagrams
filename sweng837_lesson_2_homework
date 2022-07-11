@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T23:43:59.828Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="QwDWgj8IZsx8u0DaaiNn" version="20.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-11T23:54:31.878Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="4CYD-l8u7QLE-6pIk5Xw" version="20.0.4" type="github" pages="2">
   <diagram id="YUWOlCoaYWFhups-TXl0" name="Use Case Diagram">
     <mxGraphModel dx="1192" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -133,25 +133,81 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9UloI_S88VYgBjI9X9oz-1" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="60" width="30" height="60" as="geometry" />
+          <mxGeometry x="180" y="80" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9UloI_S88VYgBjI9X9oz-2" value=":System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="90" width="120" height="40" as="geometry" />
+          <mxGeometry x="480" y="80" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9UloI_S88VYgBjI9X9oz-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="530" as="sourcePoint" />
-            <mxPoint x="200" y="150" as="targetPoint" />
+            <mxPoint x="195" y="510" as="sourcePoint" />
+            <mxPoint x="194.5" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9UloI_S88VYgBjI9X9oz-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="479.5" y="520" as="sourcePoint" />
-            <mxPoint x="479.5" y="140" as="targetPoint" />
+            <mxPoint x="540" y="510" as="sourcePoint" />
+            <mxPoint x="539.5" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9UloI_S88VYgBjI9X9oz-5" value="Refund Rental Reservation Payment Scenario" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="20" width="200" height="30" as="geometry" />
+          <mxGeometry x="265" y="20" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9UloI_S88VYgBjI9X9oz-6" value="Payment Processing System" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9UloI_S88VYgBjI9X9oz-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="510" as="sourcePoint" />
+            <mxPoint x="364.5" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UloI_S88VYgBjI9X9oz-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="240" as="sourcePoint" />
+            <mxPoint x="540" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UloI_S88VYgBjI9X9oz-11" value="getReservationAmount()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9UloI_S88VYgBjI9X9oz-10">
+          <mxGeometry x="0.1176" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UloI_S88VYgBjI9X9oz-12" value="reservationAmount" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="280" as="sourcePoint" />
+            <mxPoint x="370" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UloI_S88VYgBjI9X9oz-13" value="setRefundReason()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="200" y="320" as="sourcePoint" />
+            <mxPoint x="360" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UloI_S88VYgBjI9X9oz-14" value="refundRequest()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="200" y="200" as="sourcePoint" />
+            <mxPoint x="360" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UloI_S88VYgBjI9X9oz-15" value="verifyRefundReason()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="360" y="360" as="sourcePoint" />
+            <mxPoint x="540" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UloI_S88VYgBjI9X9oz-16" value="authorizeRefund()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="400" as="sourcePoint" />
+            <mxPoint x="370" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9UloI_S88VYgBjI9X9oz-17" value="issueRefund()" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="440" as="sourcePoint" />
+            <mxPoint x="200" y="440" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
