@@ -1,1 +1,196 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T09:21:46.227Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.1.1" etag="HTDbBcd6EP_4cp5BuFpK" type="github"><diagram id="tI-_5EbWBlCQ4rKfsPCs">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-18T09:59:02.795Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="p3wfSxeUgDgGDPtLgaE9" version="20.1.1" type="github">
+  <diagram id="tI-_5EbWBlCQ4rKfsPCs" name="prune classes">
+    <mxGraphModel dx="1192" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-1" value="Rental Kiosk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-2" value="Rental Car" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-3" value="VIN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-4" value="Rental Car Garage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-5" value="Maintenance Shop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-6" value="Rental Transaction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-7" value="Basic Insurance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-8" value="Customer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-9" value="Car Rental Rep." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-10" value="Rental Car Inventory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-11" value="Rental Car Information" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-12" value="Accounting System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-13" value="Vehicle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-14" value="Car Rental Agency" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-15" value="Insurance Agency" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-16" value="DMV" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-17" value="Rent Vehicle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-18" value="Return Vehicle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-19" value="Check Inventory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-20" value="Verify Driver License" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-21" value="Gas Tank Full Rule" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-22" value="Vehicle Class Catalogs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-23" value="Rental Agreement" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-24" value="Transaction Receipt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-25" value="Car Owner&#39;s Manual" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-26" value="Candidate Classes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="290" y="20" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-27" value="" style="line;strokeWidth=2;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="20" y="480" width="710" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-28" value="Pruning" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="680" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-29" value="Redundant" style="swimlane;startSize=20;horizontal=0;fontSize=16;" vertex="1" parent="zMOQlMGeJ1tk2TZQjTt5-28">
+          <mxGeometry y="20" width="680" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-34" value="Rental Car" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zMOQlMGeJ1tk2TZQjTt5-29">
+          <mxGeometry x="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-51" value="Inventory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zMOQlMGeJ1tk2TZQjTt5-29">
+          <mxGeometry x="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-30" value="Irrelevant" style="swimlane;startSize=20;horizontal=0;fontSize=16;" vertex="1" parent="zMOQlMGeJ1tk2TZQjTt5-28">
+          <mxGeometry y="140" width="680" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-33" value="Rental Kiosk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zMOQlMGeJ1tk2TZQjTt5-30">
+          <mxGeometry x="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-57" value="Car Owner&#39;s Manual" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zMOQlMGeJ1tk2TZQjTt5-30">
+          <mxGeometry x="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-48" value="DMV" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zMOQlMGeJ1tk2TZQjTt5-30">
+          <mxGeometry x="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-31" value="Vague" style="swimlane;startSize=20;horizontal=0;fontSize=16;" vertex="1" parent="zMOQlMGeJ1tk2TZQjTt5-28">
+          <mxGeometry y="260" width="680" height="120" as="geometry">
+            <mxRectangle y="260" width="680" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-44" value="Accounting System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zMOQlMGeJ1tk2TZQjTt5-31">
+          <mxGeometry x="20" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-39" value="Basic Insurance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zMOQlMGeJ1tk2TZQjTt5-31">
+          <mxGeometry x="150" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-46" value="Car Rental Agency" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zMOQlMGeJ1tk2TZQjTt5-31">
+          <mxGeometry x="290" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-47" value="Insurance Agency" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zMOQlMGeJ1tk2TZQjTt5-31">
+          <mxGeometry x="430" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-32" value="Imp. Specific" style="swimlane;startSize=20;horizontal=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="900" width="680" height="120" as="geometry">
+            <mxRectangle y="260" width="680" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-49" value="Rent Vehicle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zMOQlMGeJ1tk2TZQjTt5-32">
+          <mxGeometry x="20" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-50" value="Return Vehicle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zMOQlMGeJ1tk2TZQjTt5-32">
+          <mxGeometry x="160" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-36" value="Rental Car Garage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-38" value="Rental Transaction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-40" value="Customer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-41" value="Car Rental Rep." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-42" value="Rental Car Inventory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-43" value="Rental Car Information" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-45" value="Vehicle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-56" value="Transaction Receipt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-58" value="Attribute" style="swimlane;startSize=20;horizontal=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1020" width="680" height="120" as="geometry">
+            <mxRectangle y="260" width="680" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-35" value="VIN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zMOQlMGeJ1tk2TZQjTt5-58">
+          <mxGeometry x="30" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-52" value="Verify Driver License" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zMOQlMGeJ1tk2TZQjTt5-58">
+          <mxGeometry x="160" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-53" value="Gas Tank Full Rule" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zMOQlMGeJ1tk2TZQjTt5-58">
+          <mxGeometry x="290" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-54" value="Vehicle Class Catalogs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="zMOQlMGeJ1tk2TZQjTt5-58">
+          <mxGeometry x="420" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-55" value="Rental Agreement" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-59" value="" style="line;strokeWidth=2;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1170" width="710" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-60" value="&#39;Good&#39; Classes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="270" y="1190" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zMOQlMGeJ1tk2TZQjTt5-37" value="Maintenance Shop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1320" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
