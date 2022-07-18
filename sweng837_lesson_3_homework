@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T20:19:43.017Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="iMm1tGk6xv-Te-F7yJkD" version="20.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-18T20:19:53.002Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ily63E2xPsGM_ALxHFRc" version="20.1.1" type="github" pages="2">
   <diagram id="tI-_5EbWBlCQ4rKfsPCs" name="prune classes">
     <mxGraphModel dx="1192" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -381,7 +381,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rmsh9FTIHg-le9CKlT0G-41" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=#000000;" vertex="1" parent="1">
+        <mxCell id="rmsh9FTIHg-le9CKlT0G-41" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="540" y="1450" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
