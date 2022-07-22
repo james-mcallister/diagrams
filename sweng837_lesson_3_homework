@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-22T19:14:00.338Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="egp7jquLvJXxyLFAm6ub" version="20.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-22T19:16:46.901Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="m5VKNrFH2tpSUtLu3BwN" version="20.1.4" type="github" pages="2">
   <diagram id="tI-_5EbWBlCQ4rKfsPCs" name="prune classes">
     <mxGraphModel dx="1192" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -194,7 +194,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1GMgKTq5llGRt0QITDSw" name="Domain Model">
-    <mxGraphModel dx="1192" dy="-448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1192" dy="-391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -464,6 +464,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="EXV9eM9HlifrcPZzO3Ru-16" value="is a" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EXV9eM9HlifrcPZzO3Ru-8">
+          <mxGeometry x="-0.1733" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="EXV9eM9HlifrcPZzO3Ru-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="EXV9eM9HlifrcPZzO3Ru-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="750" y="1240" as="sourcePoint" />
@@ -472,6 +477,20 @@
               <mxPoint x="840" y="1240" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="EXV9eM9HlifrcPZzO3Ru-17" value="is a" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EXV9eM9HlifrcPZzO3Ru-9">
+          <mxGeometry x="-0.1333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EXV9eM9HlifrcPZzO3Ru-10" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1220" width="20" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="EXV9eM9HlifrcPZzO3Ru-12" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1220" width="20" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="EXV9eM9HlifrcPZzO3Ru-13" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1260" width="20" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
