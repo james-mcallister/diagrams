@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2022-07-24T08:32:01.295Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="fCHlnLgE10zSwQDt9dHg" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-24T09:28:07.716Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="KBHZ3HEo2YvTA5bHwdlC" version="20.1.4" type="github">
   <diagram id="BYf0vk7iM1ztgxfAmRd1" name="Sequence_Diagram">
     <mxGraphModel dx="1192" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CwDQu1Oplea6Bonhtem_-1" value=":CarRentalRep" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="40" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="CwDQu1Oplea6Bonhtem_-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="CwDQu1Oplea6Bonhtem_-1">
+          <mxGeometry x="45" y="80" width="10" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="CwDQu1Oplea6Bonhtem_-2" value=":RentalTransaction" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="120" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="CwDQu1Oplea6Bonhtem_-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="CwDQu1Oplea6Bonhtem_-2">
+          <mxGeometry x="55" y="120" width="10" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="CwDQu1Oplea6Bonhtem_-3" value="refundPayment(customerId, VIN)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="CwDQu1Oplea6Bonhtem_-1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="40" y="120" as="sourcePoint" />
+            <mxPoint x="100" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwDQu1Oplea6Bonhtem_-5" value="getRentalTransaction" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="CwDQu1Oplea6Bonhtem_-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="160" as="sourcePoint" />
+            <mxPoint x="360" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwDQu1Oplea6Bonhtem_-6" value=":TransactionReceipt" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="120" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="CwDQu1Oplea6Bonhtem_-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="CwDQu1Oplea6Bonhtem_-6">
+          <mxGeometry x="55" y="160" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="CwDQu1Oplea6Bonhtem_-7" value="setTransactionAmount" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="CwDQu1Oplea6Bonhtem_-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="200" as="sourcePoint" />
+            <mxPoint x="540" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
