@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-24T08:41:15.988Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="qlvR32AQ64NsZ2Y4_3rJ" version="20.1.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-25T03:21:30.628Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="qtJZBYKPKOEwUf4zKDDI" version="20.1.4" type="github" pages="2">
   <diagram id="tI-_5EbWBlCQ4rKfsPCs" name="prune classes">
     <mxGraphModel dx="1192" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -439,7 +439,7 @@
         <mxCell id="0HQwXR8GKIgbSORsW9ph-1" value="+ VIN" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="710" y="1320" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EXV9eM9HlifrcPZzO3Ru-1" value="+ Vehicle Class" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="EXV9eM9HlifrcPZzO3Ru-1" value="+ vehicleClass" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="495" y="1320" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EXV9eM9HlifrcPZzO3Ru-2" value="Sport Utility" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
