@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T17:45:19.525Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="3zOcDuYIPwhRPrBzate8" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-01T18:54:03.755Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="T3StpqEoICP_NW9zrtSN" version="20.2.0" type="github">
   <diagram id="hxRXeubf-cZDdf9ylue4" name="State Diagram">
     <mxGraphModel dx="1148" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -60,7 +60,7 @@
             <mxPoint x="690" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EszsDuN5IPKr52e5MjlC-56" value="getVehicle" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EszsDuN5IPKr52e5MjlC-17">
+        <mxCell id="EszsDuN5IPKr52e5MjlC-56" value="getVehicle / vehicle.unlock()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EszsDuN5IPKr52e5MjlC-17">
           <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -71,7 +71,7 @@
             <mxPoint x="320" y="320" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EszsDuN5IPKr52e5MjlC-57" value="stage vehicle" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EszsDuN5IPKr52e5MjlC-18">
+        <mxCell id="EszsDuN5IPKr52e5MjlC-57" value="vehicle prepped" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EszsDuN5IPKr52e5MjlC-18">
           <mxGeometry x="-0.1429" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -123,7 +123,7 @@
             <mxPoint x="700" y="275" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EszsDuN5IPKr52e5MjlC-54" value="maintenance inspection&lt;br&gt;[no maintenance needed]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EszsDuN5IPKr52e5MjlC-29">
+        <mxCell id="EszsDuN5IPKr52e5MjlC-54" value="maintenance check&lt;br&gt;[no maintenance needed]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EszsDuN5IPKr52e5MjlC-29">
           <mxGeometry x="-0.4237" y="1" relative="1" as="geometry">
             <mxPoint x="-1" y="-10" as="offset" />
           </mxGeometry>
@@ -166,7 +166,7 @@
             <mxPoint x="910" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EszsDuN5IPKr52e5MjlC-38" value="maintenance inspection&lt;br&gt;[needs maintenance]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EszsDuN5IPKr52e5MjlC-37">
+        <mxCell id="EszsDuN5IPKr52e5MjlC-38" value="maintenance check&lt;br&gt;[needs maintenance]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EszsDuN5IPKr52e5MjlC-37">
           <mxGeometry x="-0.1427" relative="1" as="geometry">
             <mxPoint x="-25" y="16" as="offset" />
           </mxGeometry>
@@ -179,7 +179,7 @@
             <mxPoint x="920" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EszsDuN5IPKr52e5MjlC-51" value="perform scheduled repair" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EszsDuN5IPKr52e5MjlC-40">
+        <mxCell id="EszsDuN5IPKr52e5MjlC-51" value="repair complete" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EszsDuN5IPKr52e5MjlC-40">
           <mxGeometry x="-0.6343" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -192,7 +192,7 @@
             <mxPoint x="1090" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EszsDuN5IPKr52e5MjlC-50" value="perform unscheduled repair" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EszsDuN5IPKr52e5MjlC-42">
+        <mxCell id="EszsDuN5IPKr52e5MjlC-50" value="repair complete" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EszsDuN5IPKr52e5MjlC-42">
           <mxGeometry x="-0.7422" y="1" relative="1" as="geometry">
             <mxPoint x="-1" y="-1" as="offset" />
           </mxGeometry>
@@ -205,7 +205,7 @@
             <mxPoint x="700" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EszsDuN5IPKr52e5MjlC-45" value="repair complete" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EszsDuN5IPKr52e5MjlC-44">
+        <mxCell id="EszsDuN5IPKr52e5MjlC-45" value="qa complete" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EszsDuN5IPKr52e5MjlC-44">
           <mxGeometry x="-0.0455" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -226,7 +226,7 @@
             <mxPoint x="1040" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EszsDuN5IPKr52e5MjlC-65" value="maintenance prep&lt;br&gt;[not isScheduled]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EszsDuN5IPKr52e5MjlC-62">
+        <mxCell id="EszsDuN5IPKr52e5MjlC-65" value="maintenance needed&lt;br&gt;[not isScheduled]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EszsDuN5IPKr52e5MjlC-62">
           <mxGeometry x="0.1103" relative="1" as="geometry">
             <mxPoint x="33" y="1" as="offset" />
           </mxGeometry>
@@ -237,7 +237,7 @@
             <mxPoint x="1050" y="260" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EszsDuN5IPKr52e5MjlC-64" value="maintenance prep&lt;br&gt;[isScheduled]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EszsDuN5IPKr52e5MjlC-63">
+        <mxCell id="EszsDuN5IPKr52e5MjlC-64" value="maintenance needed&lt;br&gt;[isScheduled]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EszsDuN5IPKr52e5MjlC-63">
           <mxGeometry x="0.0889" relative="1" as="geometry">
             <mxPoint x="-28" as="offset" />
           </mxGeometry>
