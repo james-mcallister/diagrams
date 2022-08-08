@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T09:03:39.454Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.2" etag="0D5AzsHln59_Ir8gNXbr" type="github"><diagram id="OKx3aJI72A8kv7qna0Jf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-08T09:29:32.922Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="TyArQjwt1D504VYJSNN8" version="20.2.2" type="github">
+  <diagram id="OKx3aJI72A8kv7qna0Jf" name="Complex Object Materialization">
+    <mxGraphModel dx="1192" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8KLkwGqcwis7x4Klqopp-1" value=":Object" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
